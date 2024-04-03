@@ -1,14 +1,14 @@
 import { View, Text, StyleSheet } from "react-native";
 
-const signup = () => {
+const Signup = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home Screen</Text>
+      <Text style={styles.text}>SignUp</Text>
     </View>
   );
 };
 
-export default signup;
+export default Signup;
 
 const styles = StyleSheet.create({
   container: { flex: 1, alignItems: "center", justifyContent: "center" },
